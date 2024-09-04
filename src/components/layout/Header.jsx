@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export const Header = () => {
   return (
     <>
-      <header className="bg-[#171d32] h-auto w-full overflow-hidden">
+      <header className="section-navbar">
         <section className="top_txt">
           <div className="head container">
             <div className="head_txt">
