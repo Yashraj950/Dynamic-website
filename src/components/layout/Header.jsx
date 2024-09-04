@@ -19,31 +19,31 @@ export const Header = () => {
         <div className="container">
           <div className="navbar-brand">
             <NavLink to="index">
-              <p>WantedFlix</p>
+              <p>Wanted</p>
             </NavLink>
           </div>
 
           <nav className="navbar">
             <ul>
               <li className="nav-link">
-                <a href="/" className="nav-link">
+                <NavLink to="/" className="nav-link">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-link">
-                <a href="/about" className="nav-link">
+                <NavLink to="/about" className="nav-link">
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="nav-link">
-                <a href="movie" className="nav-link">
+                <NavLink to="movie" className="nav-link">
                   Movie
-                </a>
+                </NavLink>
               </li>
               <li className="nav-link">
-                <a href="contact" className="nav-link">
+                <NavLink to="contact" className="nav-link">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </nav>
