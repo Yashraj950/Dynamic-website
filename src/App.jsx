@@ -10,6 +10,7 @@ import { Contact } from "./pages/Contact";
 import { AppLayout } from "./components/layout/AppLayout";
 import "./App.css";
 import { ErrorPage } from "./pages/ErrorPage";
+import { getMoviesData } from "./api/GetAPIData";
 
 export const App = () => {
   const router = createBrowserRouter([
@@ -30,6 +31,7 @@ export const App = () => {
         {
           path: "/movie",
           element: <Movie />,
+          loader: getMoviesData,
         },
         {
           path: "/contact",
