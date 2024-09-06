@@ -7,9 +7,9 @@ export const Movie = () => {
 
   return (
     <>
-      <ul className="container grid gird-four--cols">
-        {moviesData &&
-        moviesData.search.map((curMovie) => {
+      <ul className="container grid grid-four--cols">
+        {moviesData&&
+        moviesData.Search.map((curMovie) => {
           return <Card key={curMovie.imdbID} curMovie={curMovie} />;
         })}
       </ul>
