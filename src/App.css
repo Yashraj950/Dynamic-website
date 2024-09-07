@@ -374,7 +374,7 @@ main .section-hero {
 }
 
 .movie__price {
-  background: linear-gradient(to bottom, #a9c9ff 0%, #ffbbec 100%);
+  background: linear-gradient(to bottom, #0056ec 0%, #c7018f 100%);
   flex: 0 0 50px;
   font-size: 18px;
   font-weight: bold;
@@ -413,11 +413,11 @@ main .section-hero {
 }
 
 .movie__tag--1 {
-  background-color: #a9c9ff;
+  background-color: #0055e8;
 }
 
 .movie__tag--2 {
-  background-color: #ffbbec;
+  background-color: #f100ad;
 }
 
 .movie__description {
@@ -969,6 +969,7 @@ a:hover {
 /*! module / reusable  */
 .btn {
   display: inline-block;
+  margin-top: 4rem ;
   padding: 1.2rem 3.2rem;
   background-color: #b50c12;
   color: #fff;
@@ -1226,7 +1227,7 @@ main .section-hero {
 }
 
 .movie__price {
-  background: linear-gradient(to bottom, #a9c9ff 0%, #ffbbec 100%);
+  background: linear-gradient(to bottom, #1c6df8 0%, #ce11ce 100%);
   flex: 0 0 50px;
   font-size: 18px;
   font-weight: bold;
@@ -1265,11 +1266,11 @@ main .section-hero {
 }
 
 .movie__tag--1 {
-  background-color: #a9c9ff;
+  background-color: #0d5ce5;
 }
 
 .movie__tag--2 {
-  background-color: #ffbbec;
+  background-color: rgb(28, 179, 28);
 }
 
 .movie__description {
