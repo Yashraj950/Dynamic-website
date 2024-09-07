@@ -1,7 +1,7 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 
-export const MovieDetails = () => {
+export const MovieDetails = () => { 
   const movieData = useLoaderData();
   console.log(movieData);
 
