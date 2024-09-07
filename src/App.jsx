@@ -6,7 +6,7 @@ import {
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Movie } from "./pages/Movies";
-import { Contact } from "./pages/Contact";
+import { Contact, contactData } from "./pages/Contact";
 import { AppLayout } from "./components/layout/AppLayout";
 import "./App.css";
 import { ErrorPage } from "./pages/ErrorPage";
@@ -45,6 +45,7 @@ export const App = () => {
         {
           path: "/contact",
           element: <Contact />,
+          action: contactData, 
         },
       ],
     },

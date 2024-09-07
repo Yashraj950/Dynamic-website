@@ -1364,10 +1364,10 @@ textarea {
 }
 
 .contact-image {
-  width: 100%;
+  width: 60rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-self: end;
+  align-self: end;
 }
 
 .contact_image {

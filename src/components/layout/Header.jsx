@@ -7,7 +7,7 @@ export const Header = () => {
         <section className="top_txt">
           <div className="head container">
             <div className="head_txt">
-              <p>Get Wanted Membership, 30-day return or refund guarantee.</p>
+              <p>Get <NavLink to="/contact">Yash</NavLink> Membership, 30-day return or refund guarantee.</p>
             </div>
             <div className="sing_in_up">
               <NavLink to="#">SIGN IN</NavLink>
@@ -19,14 +19,14 @@ export const Header = () => {
         <div className="container">
           <div className="navbar-brand">
             <NavLink to="index">
-              <p>Wanted</p>
+              <p>🥰 Welcome My website ✍🏻</p>
             </NavLink>
           </div>
 
           <nav className="navbar">
             <ul>
               <li className="nav-link">
-                <NavLink to="/" className="nav-link">
+              <NavLink to="/" className="nav-link">
                   Home
                 </NavLink>
               </li>
